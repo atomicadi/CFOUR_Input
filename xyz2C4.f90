@@ -53,7 +53,7 @@ program generate_cfour_input
            write(unit_out,'(A)') "CC_PROG=NCC"
            write(unit_out,'(A)') "SCF_CONV=9"
            write(unit_out,'(A)') "CC_CONV=8"
-           write(unit_out,'(A)') "LINEQ_CONV=ON"
+           write(unit_out,'(A)') "LINEQ_CONV=10"
            write(unit_out,'(A)') "FROZEN=ON"
            write(unit_out,'(A)') "COORD=CARTESIAN"
            write(unit_out,'(A)') "MEMORY=160,MEM_UNIT=GB)"
